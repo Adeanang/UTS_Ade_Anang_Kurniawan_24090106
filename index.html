@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Sistem Penjualan</title>
+
+    <!-- Link ke file CSS terpisah -->
+    <link rel="stylesheet" href="css/style_login.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <!-- ILUSTRASI SAMPING -->
+        <div class="illustration-side">
+            <img src="img/logo1.jpg" 
+                 alt="Login Illustration" 
+                 class="illustration-image">
+        </div>
+
+        <!-- FORM LOGIN -->
+        <div class="form-side">
+            <h2 class="welcome-text">Masuk dan Verifikasi</h2>
+
+            <form id="loginForm">
+
+                <!-- Email -->
+                <div class="input-group">
+                    <i class="fas fa-envelope icon"></i>
+                    <input type="email" 
+                           id="email" 
+                           name="email" 
+                           placeholder="Email Address" 
+                           required>
+                </div>
+
+                <!-- Password -->
+                <div class="input-group">
+                    <i class="fas fa-lock icon"></i>
+                    <input type="password" 
+                           id="password" 
+                           name="password" 
+                           placeholder="Password (NIM)" 
+                           required>
+                </div>
+
+                <!-- Pesan Error -->
+                <p id="errorMessage" class="error-message" style="display: none;"></p>
+
+                <!-- Tombol Login -->
+                <button type="submit" class="btn login-btn">Login</button>
+
+                <!-- Pemisah -->
+                <p class="separator"><span>Atau</span></p>
+
+                <!-- Social Login -->
+                <div class="social-login">
+                    <button type="button" class="btn social-btn google-btn">
+                        <i class="fab fa-google"></i> Google
+                    </button>
+
+                    <button type="button" class="btn social-btn facebook-btn">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </button>
+                </div>
+            </form>
+
+            <p class="signup-text">
+                Belum punya akun? 
+                <a href="#">daftar</a>
+            </p>
+        </div>
+
+    </div>
+
+    <!-- File JavaScript -->
+    <script src="js/script_login.js"></script>
+
+</body>
+</html>

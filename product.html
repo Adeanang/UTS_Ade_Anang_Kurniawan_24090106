@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Product - Sistem Penjualan</title>
+    <link rel="stylesheet" href="css/style_product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <a href="dashboard.html" class="sidebar-item"> 
+            <i class="fas fa-home"></i>
+        </a>
+
+        <a href="product.html" class="sidebar-item active">
+            <i class="fas fa-th-large"></i> 
+        </a>
+        
+        <a href="data_penjualan.html" class="sidebar-item">
+            <i class="fas fa-file-invoice-dollar"></i>
+        </a>
+        
+        <a href="settings.html" class="sidebar-item">
+            <i class="fas fa-cog"></i>
+        </a>
+        
+        <a href="index.html" class="sidebar-item logout-link" id="logoutBtn">
+            <i class="fas fa-sign-out-alt"></i>
+        </a>
+    </div>
+
+    <div class="main-content">
+        <h1>Data Product</h1>
+
+        <div class="data-table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Menu</th>
+                        <th>Hrga</th>
+                        <th>Stock</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody id="productTableBody">
+                    </tbody>
+            </table>
+        </div>
+        
+    </div>
+
+    <script src="js/script_product.js"></script>
+    
+    </body>
+</html>

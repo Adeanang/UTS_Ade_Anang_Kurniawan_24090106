@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Sistem Penjualan</title>
+    <link rel="stylesheet" href="css/style_dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <a href="dashboard.html" class="sidebar-item active">
+            <i class="fas fa-home"></i>
+        </a>
+
+        <a href="product.html" class="sidebar-item">
+            <i class="fas fa-th-large"></i> 
+        </a>
+        
+        <a href="data_penjualan.html" class="sidebar-item">
+            <i class="fas fa-file-invoice-dollar"></i>
+        </a>
+        
+        <a href="settings.html" class="sidebar-item">
+            <i class="fas fa-cog"></i>
+        </a>
+        
+        <a href="index.html" class="sidebar-item logout-link" id="logoutBtn">
+            <i class="fas fa-sign-out-alt"></i>
+        </a>
+    </div>
+
+    <div class="main-content">
+        <h1>Dashboard</h1>
+
+        <div class="info-cards">
+            <div class="card">
+                <div class="icon-placeholder"><i class="fas fa-box"></i></div>
+                <div class="card-details">
+                    <p class="label">TOTAL PRODUK</p>
+                    <p class="value" id="totalProducts">109</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon-placeholder"><i class="fas fa-shopping-cart"></i></div>
+                <div class="card-details">
+                    <p class="label">TOTAL PENJUALAN</p>
+                    <p class="value" id="totalSales">75</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon-placeholder"><i class="fas fa-dollar-sign"></i></div>
+                <div class="card-details">
+                    <p class="label">TOTAL PENDAPATAN</p>
+                    <p class="value" id="totalRevenue">Rp 10.300.000</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="secondary-cards">
+            
+            <div class="card secondary-card">
+                <div class="icon-placeholder"><i class="fas fa-chart-line"></i></div>
+                <div class="card-details">
+                    <p class="label">PENJUALAN HARI INI</p>
+                    <p class="value">15</p>
+                </div>
+            </div>
+
+            <div class="card secondary-card">
+                <div class="icon-placeholder"><i class="fas fa-star"></i></div>
+                <div class="card-details">
+                    <p class="label">PRODUK TERLARIS</p>
+                    <p class="value">Ice Coffe</p>
+                </div>
+            </div>
+
+            <div class="card secondary-card">
+                <div class="icon-placeholder"><i class="fas fa-percent"></i></div>
+                <div class="card-details">
+                    <p class="label">PERSENTASE UNTUNG</p>
+                    <p class="value">10%</p>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="data-area">
+            <h2>Performa Penjualan 7 Hari Terakhir</h2>
+            <canvas id="salesChart"></canvas>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/script_dashboard.js"></script>
+</body>
+</html>
