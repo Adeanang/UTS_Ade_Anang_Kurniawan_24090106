@@ -11,7 +11,7 @@ https://adeanang.github.io/UTS_Ade-Anang-Kurniawan_24090106/
 
 ---
 
-## 📖 Deskripsi Project
+## Deskripsi Project
 Project ini merupakan aplikasi web sederhana yang digunakan untuk membantu pengelolaan penjualan di sebuah café.  
 Sistem ini memungkinkan admin untuk melakukan login, melihat ringkasan penjualan pada dashboard, serta mengelola data produk seperti kopi, teh, snack, dan menu lainnya.
 
@@ -19,7 +19,7 @@ Tujuan utama aplikasi ini adalah mempermudah admin dalam melakukan pengecekan st
 
 ---
 
-## 📌 Fitur Utama
+## Fungsi Tiap Tiap Halaman
 
 ### **1. Halaman Login**
 - User login menggunakan **email (username@)** dan password menggunakan **NIM (24090106)**.  
@@ -49,7 +49,7 @@ Tujuan utama aplikasi ini adalah mempermudah admin dalam melakukan pengecekan st
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 - **HTML**
 - **CSS**
 - **JavaScript**
@@ -57,9 +57,9 @@ Tujuan utama aplikasi ini adalah mempermudah admin dalam melakukan pengecekan st
 
 ---
 
-## 🚀 Cara Mengakses
+## Cara Mengakses
 1. Buka halaman GitHub Pages:  
-   👉 https://adeanang.github.io/UTS_Ade-Anang-Kurniawan_24090106/
+   https://adeanang.github.io/UTS_Ade-Anang-Kurniawan_24090106/
 
 2. Login dengan:
    - **Email:** username@
@@ -67,7 +67,7 @@ Tujuan utama aplikasi ini adalah mempermudah admin dalam melakukan pengecekan st
 
 ---
 
-## 👨‍💻 Dibuat oleh
+## Dibuat oleh
 **Ade Anang Kurniawan**  
 UTS Pemrograman Web  
 2025
