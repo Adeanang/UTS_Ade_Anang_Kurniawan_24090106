@@ -1,8 +1,8 @@
 Nama : Ade Anang Kurniawan
 Nim  : 24090106
 
-link Github Repository :
-Link Github Pages      :
+link Github Repository :https://github.com/Adeanang/UTS_Ade-Anang-Kurniawan_24090106.git
+Link Github Pages      :https://adeanang.github.io/UTS_Ade-Anang-Kurniawan_24090106/
 
 Project ini adalah aplikasi web sederhana yang digunakan untuk membantu pengelolaan penjualan di sebuah cafe. Sistem ini dirancang supaya admin bisa login, melihat dashboard ringkasan penjualan, serta mengelola data produk seperti kopi, teh, snack, atau menu lainnya.
 Tujuan utamanya adalah mempermudah admin dalam mengecek persediaan produk, harga, serta update data.
