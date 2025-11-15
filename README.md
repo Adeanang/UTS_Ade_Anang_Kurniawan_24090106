@@ -1,23 +1,75 @@
-Nama : Ade Anang Kurniawan
-Nim  : 24090106
+# Sistem Penjualan Café - UTS Pemrograman Web
 
-link Github Repository :https://github.com/Adeanang/UTS_Ade-Anang-Kurniawan_24090106.git
-Link Github Pages      :https://adeanang.github.io/UTS_Ade-Anang-Kurniawan_24090106/
+**Nama:** Ade Anang Kurniawan  
+**NIM:** 24090106  
 
-Project ini adalah aplikasi web sederhana yang digunakan untuk membantu pengelolaan penjualan di sebuah cafe. Sistem ini dirancang supaya admin bisa login, melihat dashboard ringkasan penjualan, serta mengelola data produk seperti kopi, teh, snack, atau menu lainnya.
-Tujuan utamanya adalah mempermudah admin dalam mengecek persediaan produk, harga, serta update data.
+📌 **Github Repository:**  
+https://github.com/Adeanang/UTS_Ade-Anang-Kurniawan_24090106.git  
 
-FUNGSI TIAP HALAMAN:
-1.Login: >user bisa login menggunkan email(username@) dan pasword nya pake nim(24090106)
-       >jika kedua nya di isi dan benar makan akan menampilkan pesan berhasil
-       >dan diarahkan ke halaman dashboard
-       >jika salah satu atau ada atau keduanya tidak di isi maka akan mucul pesan eror
-2.Dashboard (icon Rumah) : > menampilkan total produk , penjualan , dan pendapatan
-                         > lalu saya tambahkan sedikit desain agar tidak kosong
-                         > lalu usser bisa logout juga pada icon paling bawah
-                         > lalu akan mucul pesan validasi log out
-3.Product (icon kotak empat dibawah icon dashboard) : > menampilkan data product
-                                                    > usser bias edit produk dan hapus produk
-                                                    > lalu akan muncul pesan validasi edit dan hapus
-                                                    > user juga bias log out pada icon paling bawah
-                         
+📌 **Github Pages:**  
+https://adeanang.github.io/UTS_Ade-Anang-Kurniawan_24090106/
+
+---
+
+## 📖 Deskripsi Project
+Project ini merupakan aplikasi web sederhana yang digunakan untuk membantu pengelolaan penjualan di sebuah café.  
+Sistem ini memungkinkan admin untuk melakukan login, melihat ringkasan penjualan pada dashboard, serta mengelola data produk seperti kopi, teh, snack, dan menu lainnya.
+
+Tujuan utama aplikasi ini adalah mempermudah admin dalam melakukan pengecekan stok, harga, dan melakukan update data produk dengan lebih efisien.
+
+---
+
+## 📌 Fitur Utama
+
+### **1. Halaman Login**
+- User login menggunakan **email (username@)** dan password menggunakan **NIM (24090106)**.  
+- Jika semua input benar, akan muncul pesan *"Login Berhasil"* dan user diarahkan ke halaman **Dashboard**.  
+- Jika input salah atau ada yang kosong, akan muncul pesan error validasi.
+
+---
+
+### **2. Halaman Dashboard** (Icon Rumah)
+- Menampilkan informasi ringkasan seperti:
+  - Total produk
+  - Total penjualan
+  - Total pendapatan
+- Ditambahkan desain agar tampilan lebih menarik dan tidak kosong.
+- User dapat melakukan **Logout** melalui icon di bagian bawah.
+- Setelah logout, akan muncul pesan validasi *"Logout Berhasil"*.
+
+---
+
+### **3. Halaman Produk** (Icon Kotak 4)
+- Menampilkan daftar produk café.
+- User dapat melakukan:
+  - **Edit produk**
+  - **Hapus produk**
+- Setiap aksi akan menampilkan pesan validasi seperti berhasil edit atau berhasil hapus.
+- User juga dapat logout melalui icon yang tersedia di bagian bawah.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **GitHub Pages** (untuk hosting)
+
+---
+
+## 🚀 Cara Mengakses
+1. Buka halaman GitHub Pages:  
+   👉 https://adeanang.github.io/UTS_Ade-Anang-Kurniawan_24090106/
+
+2. Login dengan:
+   - **Email:** username@
+   - **Password:** 24090106
+
+---
+
+## 👨‍💻 Dibuat oleh
+**Ade Anang Kurniawan**  
+UTS Pemrograman Web  
+2025
+
+
