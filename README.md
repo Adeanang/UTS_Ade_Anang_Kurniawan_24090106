@@ -47,12 +47,4 @@ Tujuan utama aplikasi ini adalah mempermudah admin dalam melakukan pengecekan st
 - Setiap aksi akan menampilkan pesan validasi seperti berhasil edit atau berhasil hapus.
 - User juga dapat logout melalui icon yang tersedia di bagian bawah.
 
-## Cara Mengakses
-1. Buka halaman GitHub Pages:  
-   https://adeanang.github.io/UTS_Ade-Anang-Kurniawan_24090106/
-
-2. Login dengan:
-   - **Email:** username@
-   - **Password:** 24090106
-
 
