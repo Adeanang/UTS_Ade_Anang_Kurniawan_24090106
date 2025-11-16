@@ -113,3 +113,67 @@ table td:last-child {
 .delete-btn {
     color: #d32f2f; 
 }
+/* RESPONSIVE: MOBILE */
+
+@media (max-width: 768px) {
+
+    /* Sidebar mengecil */
+    .sidebar {
+        width: 60px;
+    }
+
+    .main-content {
+        margin-left: 60px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* Semua card jadi 1 kolom */
+    .info-cards,
+    .secondary-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .card .value {
+        font-size: 20px;
+    }
+
+    /* Tombol full width */
+    .btn-data-produk {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+        margin-bottom: 20px;
+    }
+
+    /* Grafik mengecil */
+    canvas {
+        width: 100% !important;
+        height: 250px !important;
+    }
+}
+
+/* HP KECIL */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    .card .value {
+        font-size: 18px;
+    }
+
+    canvas {
+        height: 200px !important;
+    }
+}
