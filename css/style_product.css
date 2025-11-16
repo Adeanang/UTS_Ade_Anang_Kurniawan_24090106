@@ -113,9 +113,11 @@ table td:last-child {
 .delete-btn {
     color: #d32f2f; 
 }
-
 /* RESPONSIVE: MOBILE */
+
 @media (max-width: 768px) {
+
+    /* Sidebar mengecil */
     .sidebar {
         width: 60px;
     }
@@ -123,81 +125,55 @@ table td:last-child {
     .main-content {
         margin-left: 60px;
         padding: 15px;
-        width: calc(100% - 60px);
     }
 
     h1 {
-        font-size: 22px;
+        font-size: 20px;
         text-align: center;
     }
 
-    .product-info {
-        grid-template-columns: 1fr;
-        gap: 8px;
-        text-align: left;
-    }
-
-    .product-name,
-    .product-price,
-    .product-stock {
-        text-align: left;
-    }
-
-    .product-actions {
-        text-align: left;
-        margin-top: 10px;
-    }
-
-    .table-header {
-        display: none;
-    }
-
-    .product-item {
-        padding: 15px;
+    /* Semua card jadi 1 kolom */
+    .info-cards,
+    .secondary-cards {
         flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
-    }
-    
-    .product-rank {
-        align-self: flex-start;
-    }
-
-    .stats-summary {
-        grid-template-columns: 1fr;
         gap: 15px;
     }
 
-    .stat-card {
-        padding: 20px;
+    .card {
+        width: 100%;
+        padding: 15px;
     }
 
-    .stat-number {
-        font-size: 24px;
+    .card .value {
+        font-size: 20px;
+    }
+
+    /* Tombol full width */
+    .btn-data-produk {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+        margin-bottom: 20px;
+    }
+
+    /* Grafik mengecil */
+    canvas {
+        width: 100% !important;
+        height: 250px !important;
     }
 }
 
 /* HP KECIL */
 @media (max-width: 480px) {
     h1 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
-    .product-name {
-        font-size: 15px;
+    .card .value {
+        font-size: 18px;
     }
 
-    .product-price,
-    .product-stock {
-        font-size: 13px;
-    }
-
-    .stat-number {
-        font-size: 22px;
-    }
-
-    .section-title {
-        font-size: 16px;
-        padding: 15px;
+    canvas {
+        height: 200px !important;
     }
 }
